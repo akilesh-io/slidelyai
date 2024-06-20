@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 
 const app = express();
 const port = 3000;
-const dbFilePath = "./db.json";
+const dbFilePath = "./src/db.json";
 
 app.use(bodyParser.json());
 
@@ -29,7 +29,7 @@ app.post("/submit", (req: Request, res: Response) => {
     }
 
     const submissions = JSON.parse(data.toString());
-    submissions.push(submission);
+    submissions.unshift(submission); // Insert the submission at the beginning
 
     fs.writeFile(dbFilePath, JSON.stringify(submissions, null, 2), (err) => {
       if (err) {
@@ -46,7 +46,7 @@ app.get("/read", (req: Request, res: Response) => {
 
   fs.readFile(dbFilePath, (err, data) => {
     if (err) {
-      return res.status(500).send("Error reading from database");
+      return res.status(500).send("Error reading from database" + err);
     }
 
     const submissions = JSON.parse(data.toString());
