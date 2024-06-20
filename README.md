@@ -7,9 +7,18 @@ This project is a simple Express server. Follow these steps to get it running:
 - Node.js installed on your machine.
 - npm (Node Package Manager), which comes with Node.js.
 
+## Clone the Repository
+
+First, clone the repository to your local machine and navigate into the project directory
+
+```sh
+git clone https://github.com/akilesh-io/slidelyai.git
+cd slidelyai
+```
+
 ## Installation
 
-First, clone the repository to your local machine and navigate into the project directory. Then install the dependencies:
+To install the dependencies, run:
 
 ```sh
 npm install
