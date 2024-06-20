@@ -1,4 +1,4 @@
-# Running the Server
+# Slidely AI Assignment Backend
 
 This project is a simple Express server. Follow these steps to get it running:
 
@@ -32,9 +32,14 @@ To run the server in development mode, which will reload the server automaticall
 npm run dev
 ```
 
-## Building the Project
+## Thast it! The server should now be running on http://localhost:3000 
 
-To compile the TypeScript files to JavaScript in the dist directory, run:
+---
+---
+
+### If you want to run the server in production mode, follow the steps below:👇
+
+To compile the TypeScript files to JavaScript in the dist directory, run: 
 
 ```sh
 npm run build
