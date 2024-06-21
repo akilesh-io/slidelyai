@@ -34,6 +34,10 @@ npm run dev
 
 ## Thast it! The server should now be running on http://localhost:3000 
 
+## Demo: (Click the image to play video)
+
+[![IMAGE ALT TEXT HERE](https://i.ibb.co/25tWc6j/Screenshot-2024-06-21-103920.png)](https://www.loom.com/embed/69f49d7c3188491088c5efedd7b3bb33?sid=f0f5a928-963c-4467-a7c2-57fd45049da4)
+
 ---
 ---
 
